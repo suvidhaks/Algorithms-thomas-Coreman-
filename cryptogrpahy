@@ -1,3 +1,6 @@
+/*Diffie-Hellman Key exchange protocol........*/
+
+
 int main()
 {
     int p,g,a,b,x,y,ka,kb;
