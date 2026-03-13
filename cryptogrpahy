@@ -1,0 +1,20 @@
+int main()
+{
+    int p,g,a,b,x,y,ka,kb;
+    printf("enter p,g");
+    scanf("%d%d", &p,&g);
+    printf("enter a,b");
+    scanf("%d%d", &a,&b);
+    x=pow(g,a);
+    x=x%p;
+    y=pow(g,b);
+    y=y%p;
+    printf("%d %d",x,y);
+    ka=pow(y,a);
+    ka=ka%p;
+    kb=pow(x,b);
+    kb=kb%p;
+    printf("\n%d %d",ka,kb);
+    
+    return 0;
+}
